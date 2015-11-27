@@ -1,0 +1,13 @@
+{
+    "version": "1.0",
+    "binding-types": {
+        "container-interop/DefinitionProviderFactories": {
+            "description": "A list of factories implementing the DefinitionProviderFactoryInterface. Those factories are used to instantiate definition providers.",
+            "parameters": {
+                "priority": {
+                    "default": 0
+                }
+            }
+        }
+    }
+}
