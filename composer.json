@@ -1,0 +1,23 @@
+{
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:container-interop/definition-interop.git"
+        }
+    ],
+    "name": "container-interop/definition-discovery",
+    "type": "library",
+    "description": "Allowing discovery of definition provider objects",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Interop\\Container\\Definition\\": "src/"
+        }
+    },
+    "require": {
+        "container-interop/definition-interop": "dev-master",
+        "puli/discovery": "^1.0"
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
